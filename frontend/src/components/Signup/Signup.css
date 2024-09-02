@@ -1,0 +1,49 @@
+.signup h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.signup input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  color: black;
+}
+
+.signup button {
+  margin-top: 12px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-inscript {
+  background-color: rgb(48, 28, 3);
+  color: bisque;
+}
+
+.btn-inscript:hover {
+  color: rgb(199, 133, 53);
+}
+
+.error {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.signup p {
+  margin-top: 12px;
+  text-align: center;
+}

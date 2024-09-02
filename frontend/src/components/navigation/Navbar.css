@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links a:hover {
+  color: rgb(110, 62, 0);
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-connect {
+  background-color: rgb(48, 28, 3);
+}
+.btn-connect a {
+  color: bisque;
+  background-color: transparent;
+}
+
+.btn-disconnect {
+  background-color: rgb(199, 133, 53);
+  color: bisque;
+}
+
+.btn-disconnect:hover {
+  color: rgb(48, 28, 3);
+}
+
+.btn-connect a:hover {
+  color: rgb(199, 133, 53);
+}
